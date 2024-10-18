@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 12px;
+            text-align: center;
+        }
+        table{
+            height:200px ;
+            width: 100px;
+        }
+        tr:nth-child(even){
+            background-color: aqua;
+        }
+        tr:hover{
+              background-color:rgb(203,206,208);
+              color: bisque;
+        }
+        tr a{
+            text-decoration: none;
+            color: black;
+        }
+        tfoot:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr.no</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+            <tr>
+                <th>name</th>
+                <td>purva</td>
+                <td>akanksha</td>
+                <td>prapti</td>
+            </tr>
+                <tr>
+                    <th>contact</th>
+                    <td>12345</td>
+                    <td>234456</td>
+                    <td>345678</td>
+                </tr>
+                    <tr>
+                        <th>company</th>
+                        <td><a href="www.google.com" target="_blank">google</a></td>
+                        <td><a href="">amazon</a></td>
+                        <td><a href="">flipkart</a><td>
+                     </tr>
+                     <tfoot>
+                        <tr>
+                            <td colspan="4">this is footer of table</td>
+                        </tr>
+                     </tfoot>
+    </table>
+</body>
+</html>
